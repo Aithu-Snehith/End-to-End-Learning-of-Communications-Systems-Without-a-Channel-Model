@@ -80,7 +80,7 @@ for epoch in range(epochs):
   model_rx.fit(xp, label, batch_size=batch_size, epochs=1, verbose=1)
 
 #testing
-batch_size = 5
+batch_size = 25
 raw_input = np.random.randint(0,8,(batch_size))
 print(raw_input)
 label = np.zeros((batch_size, 8))
