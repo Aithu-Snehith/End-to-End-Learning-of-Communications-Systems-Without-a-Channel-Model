@@ -19,8 +19,10 @@ The algorithm iterates between supervised training of the receiver and reinforce
 
 - 2_pam_model : Implementation of the algorithm with binary message string ( M = {0,1} )
 
-- 4_pam_model : In this implementation, The message space contains 4 distinct messages equispaced between 0 and 1 ( M = {0, 0.25, 0.5, 0.75 } )
+- 4_pam_model : In this implementation, The message space contains 4 distinct messages equispaced between 0 and 1 
+( M = {0, 0.25, 0.5, 0.75 } )
 
-- 8_pam_model : In this implementation, The message space contains 8 distinct messages equispaced between 0 and 1 ( M = {0, 0.125, 0.25, 0.375, 0.5, 0.625, 0.75, 0.875 } )
+- 8_pam_model : In this implementation, The message space contains 8 distinct messages equispaced between 0 and 1 
+( M = {0, 0.125, 0.25, 0.375, 0.5, 0.625, 0.75, 0.875 } )
 
 - comparition : This code is our comparition of our approach with traditional autoencoder model ( suervised model).
