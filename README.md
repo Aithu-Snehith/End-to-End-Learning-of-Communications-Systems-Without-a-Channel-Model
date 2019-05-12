@@ -15,7 +15,7 @@ Link to our Presentation: https://docs.google.com/presentation/d/1rth0ffRiQ-DXsp
 
 ### Oveview
 
-This is a End-to-End model to learn the modulation of the messages so that we can achive no-loss singal at the receiver side.
+This is an End-to-End model to learn the modulation of the messages so that we can achive no-loss singal at the receiver side.
 
 The algorithm iterates between supervised training of the receiver and reinforcement learning (RL)-based training of the transmitter.
 
@@ -27,4 +27,4 @@ The algorithm iterates between supervised training of the receiver and reinforce
 - 8_pam_model : implementation with message space containing 8 distinct messages equispaced between 0 and 1 <br>
 ( M = {0, 0.125, 0.25, 0.375, 0.5, 0.625, 0.75, 0.875 } )
 
-- comparition : This code is our comparition of our approach with traditional autoencoder model ( suervised model).
+- comparition.py : This code is the comparition of our approach with traditional autoencoder model (supervised model).
